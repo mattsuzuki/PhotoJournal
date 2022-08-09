@@ -1,0 +1,29 @@
+{
+  "name": "photojournal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsuzuki/PhotoJournal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattsuzuki/PhotoJournal/issues"
+  },
+  "homepage": "https://github.com/mattsuzuki/PhotoJournal#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "logger": "^0.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19"
+  }
+}
